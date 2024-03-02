@@ -3,10 +3,15 @@ Divit Shah's Repository for CS253 Object-Oriented Programming Assignment in C++
 
 
 This Car Rental System comprises of the main C++ file, "car_rental_system.cpp", containing the source code, and 5 database files in total, which are:
+
 "customers.csv", for maintaining the customer database and responding to any customer related queries.
+
 "employees.csv", for maintaining the employee database and responding to any employee related queries.
+
 "managers.csv", for maintaining the manager database and responding to any manager related queries.
+
 "cars.csv", for maintaining the overall car database which keeps a record of every car in the system.
+
 "rented_cars.csv", for keeping track of currently rented cars and their respective owners.
 
 The structure of the 3 user databases is as follows:
