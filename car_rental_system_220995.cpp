@@ -1,3 +1,5 @@
+//Made by Shah Divit Ritesh 220995
+
 //customers.csv, employees.csv, and managers.csv use data in the form of {name,id,password,user_type,record}
 //cars.csv uses data in the form of {car_name,brand,price,serial_no,is_rented}
 //rented_cars.csv uses data in the form of {id,car_name,car_price,car_serial_number,rent_date}
