@@ -1242,8 +1242,13 @@ void Manager :: update_user(string id){
 }
 void Manager :: delete_user(string id){
     string user_id;
-    cout<<"Enter the user id of the user : ";
+    cout<<"Enter the user ID of the user : "<<endl;
     cin>>user_id;
+    while(user_id==id){
+        cout<<"You cannot delete yourself as a user. Please try again with another user ID."<<endl;
+        cout<<"Enter the user ID of the user : "<<endl;
+        cin>>user_id;
+    }
     my_vector.clear();
     int flag=0;
     read("customers.csv");
