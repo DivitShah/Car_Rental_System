@@ -44,7 +44,7 @@ Time of Rental is updated by the system by itself and is used to calculate due d
 
 + Additionally, customers and employees can browse all cars in the store and check whether they can rent a particular car or not, and the price required for renting it. Managers can view all cars in the store, view all user details (except passwords), view which car is rented to whom, and add, delete and update details of any car or user. 
 
-NOTE: There must always be atleast 1 manager in the system, and hence there must always exist 1 manager in the database [`managers.csv`](/managers.csv). All managers cannot be deleted.
+NOTE: There must always be atleast 1 manager in the system, and hence there must always exist 1 manager in the database [`managers.csv`](/managers.csv). All managers cannot be deleted, and this is taken care of since no manager can delete himself/herself.
 
 + Lastly, at runtime, care has been taken to ensure that invalid inputs are handled by the system accordingly using defensive programming, and only valid inputs will be considered by the system at each and every step of execution.
 
